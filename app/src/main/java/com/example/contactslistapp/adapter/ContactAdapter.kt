@@ -13,6 +13,7 @@ import com.example.contactslistapp.R
 import com.example.contactslistapp.model.Contact
 import com.google.firebase.firestore.FirebaseFirestore
 
+// ContactAdapter class is used to display the data in the listview
 class ContactAdapter(var activity: Activity, var data: ArrayList<Contact>) : BaseAdapter() {
     val db = FirebaseFirestore.getInstance()
 
