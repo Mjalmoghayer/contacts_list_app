@@ -29,6 +29,7 @@ class ContactAdapter(var activity: Activity, var data: ArrayList<Contact>) : Bas
         return 0
     }
 
+    // getView method is used to display the data in the listview
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
         var root = convertView
 
